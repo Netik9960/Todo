@@ -27,9 +27,9 @@ const App = () => {
   
   return (
    
-    <div className="App">
+    <div className="App" >
       
-      <h1>Todo List</h1>
+      <h1 >Todo List</h1>
       <TodoForm addTodo={addTodo} />
       <TodoList class="list" todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
     </div>
