@@ -6,8 +6,8 @@ const TodoItem = ({ todo, toggleComplete, removeTodo }) => {
   return (
     <div style={{ textDecoration: todo.completed ? 'line-through' : '' }}>
       {todo.text}
-      <button onClick={() => toggleComplete(todo.id)}>Complete</button>
-      <button onClick={() => removeTodo(todo.id)}>Remove</button>
+      {/* <button onClick={() => toggleComplete(todo.id)}></button> */}
+      <button onClick={() => removeTodo(todo.id)}>DEL</button>
     </div>
   );
 };
