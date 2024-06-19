@@ -23,12 +23,14 @@ const App = () => {
   const removeTodo = (id) => {
     setTodos(todos.filter((todo) => todo.id !== id));
   };
-
+  
+  
   return (
+   
     <div className="App">
       <h1>Todo List</h1>
       <TodoForm addTodo={addTodo} />
-      <TodoList todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
+      <TodoList class="list" todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
     </div>
   );
 };
