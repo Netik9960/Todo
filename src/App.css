@@ -1,6 +1,6 @@
 /* src/App.css */
 .App {
-  box-shadow: 5px 5px 10px gray;
+  box-shadow: 2px 5px 30px gray;
   display: flexbox;
   background-color: rgba(250, 245, 245, 0.014);
   margin: 10%;
