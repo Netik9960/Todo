@@ -30,6 +30,7 @@ const App = () => {
     <div className="App" >
       
       <h1 >Todo List</h1>
+      <hr></hr>
       <TodoForm addTodo={addTodo} />
       <TodoList class="list" todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
     </div>

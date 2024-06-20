@@ -1,14 +1,15 @@
 /* src/App.css */
 .App {
-  box-shadow: 2px 5px 100px rgb(3, 51, 59);
+  box-shadow: 2px 5px 100px rgb(55, 147, 184);
   background-color: #333;
-  margin-top: 50px;
+  margin:70px;
   padding: 20px;
   text-align: center;
   border: 2px solid rgba(22, 12, 12, 0);
-  border-radius: 50px;
+  border-radius: 15px;
   text-align: center;
   width: 500px;
+  height: 300px;
 }
 
 .App h1 {
@@ -35,7 +36,7 @@
   /* width: 200px; */
   text-align: center;
   font-size: 20px;
-  color: rgb(15, 131, 121);
+  color: rgb(215, 255, 252);
   background: #00000000;
   padding: 10px;
   margin-right: 10px;
@@ -53,7 +54,8 @@
   box-shadow: 2px 2px 2px rgb(29, 76, 131);
   background-color: rgb(231, 242, 255);
   display: flexbox;
-  flex-direction: center;
+  justify-content: right;
+  align-content:right;
   border: 1px solid rgba(39, 2, 2, 0.014);
   border-radius: 500px;
   margin-left: 20px;
@@ -61,13 +63,13 @@
   /* background: #02020200; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
-  color: rgb(15, 131, 121);
+  color: rgb(20, 66, 62);
 }
 .list{
   margin: 0px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: right;
+   
   align-content: center;
 }
 /* src/index.css */
@@ -82,5 +84,5 @@ body {
   justify-content: center;
   align-content: center;
   align-items: center;
-  color: rgb(15, 131, 121);
+  color: rgb(178, 250, 255);
 }
