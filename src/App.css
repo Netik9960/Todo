@@ -132,6 +132,7 @@
   float: right;
   margin-right: 50px;
   align-items: center;
+  cursor: pointer;
 }
 /* src/index.css */
 body {
