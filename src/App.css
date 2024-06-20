@@ -1,20 +1,53 @@
 /* src/App.css */
+.header{
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  position: relative;
+  text-align: center;
+  left: 80px;
+  font-family: 'Exotc350 Bd BT';
+  font-size: 40px;
+  color: rgb(104, 243, 243);
+}
+.header span{
+  color: rgb(145, 255, 0);
+}
+.description{
+  display: flex;
+  align-items: center;
+  color:rgb (104, 243, 243);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 15px;
+  margin-left: 5px;
+  margin-bottom: 10px;
+  padding-left:7px ;
+  
+  height: 25px;
+  border-left: orange 2px solid;
+  border-radius: 3px   ;
+}
+.description span{
+  margin-left: 5px;
+  color: rgb(145, 255, 0);
+  font-family:  'castllar', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
+}
 .App {
   box-shadow: 2px 5px 100px rgb(55, 147, 184);
   background-color: #333;
-  margin:70px;
+  margin:5px; 
   padding: 20px;
   text-align: center;
   border: 2px solid rgba(22, 12, 12, 0);
   border-radius: 15px;
   text-align: center;
   width: 500px;
-  height: 300px;
+  height: auto;
 }
 
 .App h1 {
   /* box-shadow: 2px 2px 12px rgb(131, 131, 131); */
-  color: rgb(251, 255, 255);
+  color: rgb(104, 243, 243);
   position: relative;
   left: 150px;
   width: 200px;
@@ -25,7 +58,9 @@
   border: 1px solid rgba(39, 2, 2, 0.014);
   border-radius: 10px ;
 }
-
+.App h1 span{
+  color:rgb(145, 255, 0); ;
+}
 .App form {
   margin: 30px 0;
 }
@@ -53,24 +88,21 @@
   width: 40px;
   box-shadow: 2px 2px 2px rgb(29, 76, 131);
   background-color: rgb(231, 242, 255);
-  display: flexbox;
+  /* display: flexbox;
   justify-content: right;
-  align-content:right;
+  align-content:right; */
   border: 1px solid rgba(39, 2, 2, 0.014);
   border-radius: 500px;
   margin-left: 20px;
-  padding: 5px;
+  margin-top: 10px;
+  padding: 2px;
   /* background: #02020200; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
   color: rgb(20, 66, 62);
 }
-.list{
-  margin: 0px;
-  display: flex;
-  justify-content: right;
-   
-  align-content: center;
+.delete{
+ align-items: center;
 }
 /* src/index.css */
 body {

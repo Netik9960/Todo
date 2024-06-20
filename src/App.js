@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import TodoForm from './components/TodoForm';
 import TodoList from './components/TodoList';
 import './App.css';
+import Header from './components/Header.jsx';
 
 const App = () => {
   const [todos, setTodos] = useState([]);
@@ -26,13 +27,18 @@ const App = () => {
   
   
   return (
+    <div>
+       <Header/>
+
+       
    
     <div className="App" >
       
-      <h1 >Todo List</h1>
+      <h1 >Todo <span>List</span></h1>
       <hr></hr>
       <TodoForm addTodo={addTodo} />
       <TodoList class="list" todos={todos} toggleComplete={toggleComplete} removeTodo={removeTodo} />
+    </div>
     </div>
   );
 };
