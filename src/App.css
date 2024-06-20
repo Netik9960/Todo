@@ -12,7 +12,7 @@
   color: rgb(104, 243, 243);
 }
 .header span{
-  color: rgb(145, 255, 0);
+  color: rgb(192, 255, 110);
 }
 .description{
   display: flex;
@@ -30,7 +30,8 @@
 }
 .description span{
   margin-left: 5px;
-  color: rgb(145, 255, 0);
+  color: rgb(192, 255, 110);
+
   font-family:  'castllar', 'Lucida Sans Unicode', 'Geneva', 'Verdana', 'sans-serif';
 }
 .App {
@@ -60,7 +61,7 @@
   border-radius: 10px ;
 }
 .App h1 span{
-  color:rgb(145, 255, 0); ;
+  color: rgb(192, 255, 110);
 }
 .App form {
   margin: 30px 0;
@@ -81,12 +82,12 @@
 }
 .App input:hover{
   box-shadow: 1px 1px 100px rgb(106, 161, 223);
-  padding: 13px;
+  transform: scale(1.15,1.15);
   transition: 0.5s;
 }
 .App button {
-  height: 40px;
-  width: 40px;
+  height: 35px;
+  width: 35px;
   box-shadow:  2px 2px 10px rgb(5, 115, 143);
   background-color: rgb(231, 242, 255);
   /* display: flexbox;
@@ -94,19 +95,43 @@
   align-content:right; */
   border: 1px solid rgba(39, 2, 2, 0.014);
   border-radius: 500px;
-  margin-left: 20px;
-  margin-top: 10px;
   padding: 2px;
+  margin-left: 20px;
   /* background: #02020200; */
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 15px;
   color: rgb(20, 66, 62);
 }
 .delete{
-  
- 
- align-items: center;
+  box-shadow: 2px 2px 10px rgb(14, 83, 129);
+  /* background: #ffffffb2; */
+  border-left: 2px solid orange;
+  border-right: 2px solid rgb(102, 245, 35);
+  border-radius: 10px;
+  position: relative;
+  /* right: 0px; */
+  text-align: left;
+  height: 30px;
+  margin: 13px;
+  display: block;
+  font-size: 22px;
+  align-content: center;
+  align-items: center;
+  padding-left:20px ;
+  padding-top:5px ;
+ /* align-items: center; */
 
+}
+.delete:hover{
+ box-shadow: 2px 2px 40px rgba(13, 76, 192, 0.671);
+ transition: 0.5s;
+ transform: scalex(1.1);
+}
+.delete button{
+  background: rgb(255, 44, 44);
+  float: right;
+  margin-right: 50px;
+  align-items: center;
 }
 /* src/index.css */
 body {
