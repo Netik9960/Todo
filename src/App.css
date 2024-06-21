@@ -36,7 +36,7 @@
 }
 .App {
   box-shadow: 2px 5px 100px rgb(55, 147, 184);
-  background-color: #333;
+  background-color: #000000;
   margin:5px; 
   padding: 20px;
   text-align: center;
@@ -44,7 +44,7 @@
   border-radius: 15px;
   text-align: center;
   width: 500px;
-  height: auto;
+  height: min-content;
 }
 
 .App h1 {
@@ -127,7 +127,7 @@
  transform: scale(1.1);
 }
 .delete button{
-  background: rgb(255, 44, 44);
+  background: rgb(243, 215, 59);
   float: right;
   height: 27px;
   width: 27px;
@@ -135,11 +135,15 @@
   align-items: center;
   cursor: pointer;
 }
+.delete button:hover{
+  background-color: crimson;
+  transition: 0.5s;
+}
 /* src/index.css */
 body {
   font-family: 'Arial', 'sans-serif';
   /* background-image: url(wp.jpg); */
-  background-color: #333;
+  background-color: #000000;
   margin: 0;
   padding: 0;
   font-size: 20px;
