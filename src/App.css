@@ -114,9 +114,8 @@
   height: 30px;
   margin: 13px;
   display: block;
-  font-size: 22px;
-  align-content: center;
-  align-items: center;
+  font-size: 20px;
+  
   padding-left:20px ;
   padding-top:5px ;
  /* align-items: center; */
@@ -125,11 +124,13 @@
 .delete:hover{
  box-shadow: 2px 2px 40px rgba(13, 76, 192, 0.671);
  transition: 0.5s;
- transform: scalex(1.1);
+ transform: scale(1.1);
 }
 .delete button{
   background: rgb(255, 44, 44);
   float: right;
+  height: 27px;
+  width: 27px;
   margin-right: 50px;
   align-items: center;
   cursor: pointer;
